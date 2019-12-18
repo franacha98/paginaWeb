@@ -1,0 +1,147 @@
+body{
+    background-image: url("../html/images/fondo.png");
+}
+h1{
+      font-variant: small-caps;
+      color: white;
+      text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+      font-family: 'Permanent Marker', cursive;
+      font-size: 45px;
+    }
+table{
+    box-shadow: 1px 1px 2px black, 0 0 25px silver, 0 0 5px silver;
+    text-align: center;
+}
+table, tr, th,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+td,th{
+  padding: 10px;
+}
+th{
+  background-color: yellow;
+}
+#ej1{
+  table-layout: fixed;
+}
+
+#recreo{
+    font-variant: small-caps;
+    font-weight: bold;
+}
+#diashoras{
+  background-color: rgb(153, 204, 255);
+  font-weight: bold;
+}
+#bbdd{
+  background-color: rgb(102, 255, 204);
+}
+#ing{
+  background-color: rgb(255, 140, 102);
+}
+#prog{
+  background-color: rgb(217, 102, 255);
+}
+#marcas{
+  background-color: red;
+}
+#fol{
+  background-color: rgb(204, 204, 255);
+}
+#ent{
+  background-color: rgb(204, 255, 102);
+}
+#sist{
+  background-color: rgb(204, 153, 102);
+}
+#footer {
+  position: fixed;
+  bottom: 0;
+        }
+table tr:nth-child(even) {
+  background-color: #eee;
+}
+table tr:nth-child(odd) {
+ background-color: #fff;
+}
+
+#adios{
+  -webkit-transform:rotateY(180deg);
+  -moz-transform:rotateY(180deg);
+  -o-transform:rotateY(180deg);
+  -ms-transform:rotateY(180deg);
+  unicode-bidi:bidi-override;
+  direction: ltr;
+}
+#caracola{
+  background-color: rgb(102, 255, 204);
+}
+td{
+  width: 90px;
+  height: 90px;
+  padding: 15px;
+}
+#letra{
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  text-decoration: underline;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 40px;
+}
+#html{
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#r{
+  background-color: red;
+}
+#girarPedro{
+  font-weight: bold;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  font-size: 20px;
+  margin: 15px;
+}
+#insta{
+  color: aquamarine;
+}
+#azul{
+  background-color: rgb(52, 186, 235);
+}
+#lolpng{
+  width: 100px;
+  height: 100px;
+}
+#lol{
+  background-color: purple;
+}
+#TablaEj2{
+  width: 100%;
+}
+#lorem{
+  text-align: justify;
+  width: 90%;
+  padding: 40px;
+}
+#titulo{
+  text-align: center;
+  font-size: 50px;
+  padding-bottom: 30px;
+}
+#foto{
+  height: 400px;
+
+}
+p{
+  font-size: 18px;
+  padding-bottom: 30px;
+  text-indent: 50px;
+}
+.ej2{
+  border-style: none;
+}

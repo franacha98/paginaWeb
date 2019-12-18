@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+<head>
+<title>Inicio</title>
+<meta name="author" content="Fran Acha" charset="UTF-8">
+<link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32" />
+<link type="text/css" rel="stylesheet" href="css/estilos.css"/>
+<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Manual HTML  <i class="fa fa-check-square-o" aria-hidden="true"></i></h1>
+<hr>
+<h3>¿Qué es un Lenguaje de marcas?</h3>
+<p>- Un lenguaje de marcado o lenguaje de marcas es una forma de codificar un documento que, junto con el texto, incorpora etiquetas o marcas que contienen información adicional acerca de la estructura del texto o su presentación.</p>
+
+<h3>¿Qué es HTML?</h3>
+<p>- HTML es un lenguaje de marcas que se utiliza para el desarrollo de páginas de Internet.</p>
+<br>
+<table class="tg" align="center">
+  <tr>
+    <th class="tg-0lax"><b>ETIQUETA</b></th>
+    <th class="tg-0lax"><b>DESCRIPCIÓN</b></th>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;!DOCTYPE html&gt;</b></td>
+    <td class="tg-0lax">Se coloca al principio de todo.<br>
+      No es una etiqueta de HTML, sino una instrucción que informa al navegador la versión de HTML en la que la página está escrita.
+      No tiene etiqueta de cierre.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;html&gt;</b></td>
+    <td class="tg-0lax">Dice al navegador que es un documento HMTL.<br>
+	Funciona como el contenedor de todos los elementos HMTL, a excepción del &lt;!DOCTYPE html&gt;.<br>
+	Tiene etiqueta de apertura y de cierre.<br>
+  Puede contener el atributo <b>lang="es-ES"</b>, lo que indica el idioma de la página.
+</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;head&gt;</b></td>
+    <td class="tg-0lax">Etiqueta (de apertura y cierre) que contiene todos los elementos head. Estos elementos puedes ser, entre otros:<br>
+		&nbsp;- Título <br>
+		&nbsp;- Scripts <br>
+		&nbsp;- Estilos <br>
+		&nbsp;- Metadatos (información sobre la página web)<br>
+		&nbsp;- Link
+</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Cabeceras</b></td>
+    <td class="tg-0lax">Esta etiqueta representa los diferentes encabezados.<br>
+    Hay 6 opciones diferentes ([h1 - h6]), que varía el tamaño.<br>
+    Son útiles para marcar una estructura en nuestra página.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;p&gt;</b></td>
+    <td class="tg-0lax">Esta etiqueta define un párrafo.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;br&gt;</b></td>
+    <td class="tg-0lax">Etiqueta que no necesita cierre y produce un salto de línea</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Formateo de texto</b></td>
+    <td class="tg-0lax">Permite dar pequeños estilos al texto.<br>
+    Los ejemplos más sencillos son:<br>
+    &nbsp;- &lt;b&gt;TEXTO&lt;/b&gt; ----- <b>TEXTO</b> <br>
+    &nbsp;- &lt;i&gt;TEXTO&lt;/i&gt; ----- <i>TEXTO</i><br>
+    &nbsp;- &lt;strong&gt;TEXTO&lt;/strong&gt; ----- <strong>TEXTO</strong> <br>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;a&gt;</b></td>
+    <td class="tg-0lax">Representa un enlace.<br>
+      Ejemplo de sintxis: &lt;a href="https://www.w3schools.com/html/">Visit our HTML tutorial&lt;/a&gt;<br>
+      Ejemplo de funcionamiento: <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;img&gt;</b></td>
+    <td class="tg-0lax">Esta etiqueta sin cierre muestra una foto del sistema (ruta) o de Internet (URL).
+    <br>Si la ruta esta mal o la foto no existe, aparecerá en su lugar el atributo 'alt'<br>
+  Por otro lado, tenemos el atributo 'title', que al poner el cursor encima aparecerá el nombre de la foto.
+<br>Ejemplo de archivo de imagen:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ejemplo de foto erronea<br>
+<img id="foto" alt="HTML" title="HTML" width="40%" src="images/jojo.gif">                  <img alt="HTML" title="HTML" src="images/html.jpg"></td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Listas desordenadas</b></td>
+    <td class="tg-0lax">&lt;ul&gt; abre una lista desordenada.
+       <br>&lt;li&gt; abre cada elemento de la lista. (Con sus cierres respectivos)
+      <ul style="list-style-type:disc;">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul>
+      La lista anterior se escribiría así:<br><br>
+      &lt;ul style="list-style-type:disc;"&gt;<br>
+        &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &lt;li&gt;Tea&lt;/li&gt;<br>
+        &lt;li&gt;Milk&lt;/li&gt;<br>
+      &lt;/ul&gt;
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Listas ordenadas</b></td>
+    <td class="tg-0lax">&lt;ol&gt; abre una lista desordenada.
+       <br>&lt;li&gt; abre cada elemento de la lista. (Con sus cierres respectivos)
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      La lista anterior se escribiría así:<br><br>
+      &lt;ol&gt;<br>
+        &lt;li&gt;Coffee&lt;/li&gt;<br>
+        &lt;li&gt;Tea&lt;/li&gt;<br>
+        &lt;li&gt;Milk&lt;/li&gt;<br>
+      &lt;/ol&gt;
+</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Listas de descripción</b></td>
+    <td class="tg-0lax">Lista de términos con su descripción.<br>
+      <dl>
+        <dt>Coffee</dt>
+          <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+          <dd>- white cold drink</dd>
+      </dl>
+      Sintaxis: <br><br>
+      &lt;dl&gt;<br>
+        &lt;dt&gt;Coffee&lt;/dt&gt;<br>
+          &lt;dd&gt;- black hot drink&lt;/dd&gt;<br>
+        &lt;dt&gt;Milk&lt;/dt&gt;<br>
+          &lt;dd&gt;- white cold drink&lt;/dd&gt;<br>
+      &lt;/dl&gt;
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;body&gt;</b></td>
+    <td class="tg-0lax">Esta etiqueta define el cuerpo del documento.<br>
+    Contiene todos los elementos de un documento HTML, como texto, hipervínculos, imágenes, tablas, listas, etc.</td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;table&gt;</b></td>
+    <td class="tg-0lax">Esta etiqueta define una tabla.<br>
+      <br>El encabezado de la tabla se representa con 'th'.<br>
+      Cada fila se define con 'tr' (table row).<br>
+      Cada celda se representa con 'td'.<br>
+      Ejemplo:<br><br>
+      &lt;table&gt;<br>
+    &lt;tr&gt;<br>
+      &lt;th&gt;Nombre&lt;/th&gt;<br>
+      &lt;th&gt;Apellido&lt;/th&gt;<br>
+      &lt;th&gt;Edad&lt;/th&gt;<br>
+    &lt;/tr&gt;<br>
+    &lt;tr&gt;<br>
+      &lt;td&gt;Fran&lt;/td&gt;<br>
+      &lt;td&gt;Acha&lt;/td&gt;<br>
+      &lt;td&gt;21&lt;/td&gt;<br>
+    &lt;/tr&gt;&lt;/td&gt;<br>
+    &lt;/table&gt;<br><br>
+
+    <table style="width:100%">
+  <tr>
+    <th>Nombre</th>
+    <th>Apellido</th>
+    <th>Edad</th>
+  </tr>
+  <tr>
+    <td>Fran</td>
+    <td>Acha</td>
+    <td>21</td>
+  </tr>
+  </table>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;hr&gt;</b></td>
+    <td class="tg-0lax">Dibuja una línea horizontal (no tiene etiqueta de cierre).<br>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;button&gt;</b></td>
+    <td class="tg-0lax">Crea un botón, pero por sí solo no hace nada, hay que ponerle atributos.<br>
+      Por ejemplo, para acceder a esta página has hecho click en un botón como este: <button id="boton" onclick="window.location.href='index.html'">Ir al manual de HTML</button>
+      <br>
+      Este botón contiene el atributo <b>onclick="window.location.href='index.html'"</b>, lo que permite redirigir a otra página.
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;pre&gt;</b></td>
+    <td class="tg-0lax">Define texto preformateado.
+    <br>El texto que contiene se muestra en una fuente (normalmente Courier), y mantiene los espacios y los saltos de línea.
+    <br>(Sin necesidad de &lt;br&gt;)
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Estilos</b></td>
+    <td class="tg-0lax">Hay tres formas de dar estilos: Inline, internal, external:<br><br>
+      <b>Inline:</b>
+      <br>- Sintaxis: &lt;tagname style="property:value;"&gt;
+      <br><b>Internal:</b>
+      <br>- Se añade un tag style en el head. Para ello es necesario que haya identificadores (nombre de un tag (p), id o class)
+      <br><b>External:</b>
+      <br>- Se guardan todos los estilos en una hoja de estilos aparte del .html. Tiene la extensión .css.
+      <br>Se debe enlazar al fichero html mediante un tag link en el head:<br>
+      &lt;head&gt;<br>
+      &lt;link rel="stylesheet" href="hojaEstilos.css"&gt;<br>
+      &lt;/head&gt;<br>
+      <br>Los más comunes son:<br>
+      - background-color: define el color de fondo del elementos<br>
+      - color: define el color del texto de un elemento<br>
+      - font-family:<i>nombre_fuente;</i> define la fuente del texto<br>
+      - font-size:13px; modifica el tamaño de la letra(lo mejor es poner el tamaño en pixels)<br>
+      - text-align: modifica el alineado horizontal de un elemento (center, left, right)<br>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Icono</b></td>
+    <td class="tg-0lax">Es la imagen pequeña que aparece en la pestaña, al lado del título.<br>
+      Se coloca en una etiqueta link en el head de la página.<br>
+      Es recomendable que sea una imagen de tipo PNG de tamaño pequeño, como 16x16 o 32x32.<br>
+      El ejemplo de esta página sería:<br>
+      &lt;link rel="icon" type="image/png" href="../images/favicon-32x32.png" sizes="32x32"/&gt;
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;address&gt;</b></td>
+    <td class="tg-0lax">Define la información de contacto del autor/propietario.<br>
+      Ejemplo:<br>
+      &lt;address&gt;
+Written by John Doe.<br>
+Visit us at:<br>
+Example.com<br>
+Box 564, Disneyland<br>
+USA
+&lt;/address&gt;
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>&lt;cite&gt;</b></td>
+    <td class="tg-0lax">Define el título de un trabajo.<br>
+      Los elementos de una cita se muestran normalmente en cursiva.<br>
+      Ejemplo:<br>
+      <cite>The Scream</cite> by Edvard Munch. Painted in 1893.<br>
+      &lt;cite&gt;The Scream&lt;/cite&gt; by Edvard Munch. Painted in 1893.
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Bloques</b></td>
+    <td class="tg-0lax">
+      Los bloques son la parte fundamental a la hora de maquetar una página web.
+      <br>Permiten modificar las posiciones y los estilos de las diferentes partes de la página gracias a la agrupación en bloques.<br>
+      Hay dos tipos de bloques principalmente: <br>
+      <b>- DIV</b><br>
+      Elemento usado como contenedor (bloque) de otros elementos.<br>
+      Permite dar estilos a todo el bloque que abarca el div.<br>
+      Ejemplo:<br>
+      <div style="background-color:black;color:white;padding:20px;">
+        <h2>London</h2>
+        <p>London is the capital city of England. It is the most populous city in the United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+        <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+      </div> <br>
+      <b>- SPAN</b><br>
+      Permite agrupar en secciones, pero está más enfocado a textos.<br>
+      Ejemplo: <br>
+      <h3>My <span style="color:red">Important</span> Heading</h3>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Mapa de imagen</b></td>
+    <td class="tg-0lax">Permite poner varios enlaces en una misma imagen, por secciones de la misma.
+      <br>Es necesario definir un mapa (&lt;map&gt; con areas(&lt;area&gt;) dentro)<br>
+      Ejemplo:<br>
+      &lt;img src="images/workplace.jpg" alt="Workplace" usemap="#workmap"&gt;<br>
+      &lt;map name="workmap"&gt;<br>
+      &lt;area shape="rect" coords="34,44,270,350" href="hola.html"/&gt;<br>
+      &lt;/map&gt;<br>
+      <img src="images/workplace.jpg" alt="Workplace" usemap="#workmap" width="400" height="379"/>
+      <map name="workmap">
+        <area shape="rect" coords="34,44,270,350" alt="Computer" href="https://www.w3schools.com/html/computer.htm">
+        <area shape="rect" coords="290,172,333,250" alt="Phone" href="https://www.w3schools.com/html/phone.htm">
+        <area shape="circle" coords="337,300,44" alt="Cup of coffee" href="https://www.w3schools.com/html/coffee.htm">
+      </map>
+    </td>
+  </tr>
+</table>
+<div class="footer">
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
+</div>
+</body>
+</html>
