@@ -1,0 +1,10 @@
+Software libre: 75px alto
+
+Separacion entre Software libre y Escritorio: 53px;
+
+Escritorio: 75px alto. Separacion lateral: 10%
+
+Separacion entre Escritorio y 7zip 40px.
+
+7zip: 55px alto
+	Contenido: 174px;

@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
+  <iframe src="../iframe/index.html" height="50" width="100%"></iframe>
 <h1>Manual HTML  <i class="fa fa-check-square-o" aria-hidden="true"></i></h1>
 <hr>
 <h3>¿Qué es un Lenguaje de marcas?</h3>
@@ -284,9 +285,66 @@ USA
       </map>
     </td>
   </tr>
+  <tr>
+    <td class="tg-0lax"><b>iframes</b></td>
+    <td class="tg-0lax">
+      Permite introducir una página web dentro de la misma en un bloque.<br>
+    <iframe src="../Examen/index.html" height="200" width="300"></iframe>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Computer code</b></td>
+    <td class="tg-0lax">
+      Representa una entrada de teclado para el usuario<br>
+      Sintaxis: &lt;kbd&gt;TEXTO&lt;/kbd&gt;<br>
+    Guarda el documento pulsando <kbd>Ctrl + S</kbd>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Símbolos y entidades</b></td>
+    <td class="tg-0lax">
+      Sirven para representar algunos caracteres en HTML.<br><br>
+      <img src="images/entidades.png"><br>
+      Estos son solo algunos, para ver más:<br><br>
+      <a href="https://www.w3schools.com/html/html_entities.asp">Pulse aquí para ver entidades</a><br>
+      <br>
+      <a href="https://www.w3schools.com/html/html_symbols.asp">Pulse aquí para ver símbolos</a>
+    </td>
+  </tr>
+  <tr>
+    <td class="tg-0lax"><b>Formularios</b></td>
+    <td class="tg-0lax">
+      Sirven para el envío de información.<br><br>
+      <form name="formulario1" action="index.html" method="GET">
+        Nombre:<br>
+        <input type="text" name="nombre"></br><br>
+        Apellidos:<br>
+        <input type="text" name="apellidos"></br><br>
+        Correo electrónico:<br>
+        <input type="email" name="correo"></br><br>
+        Contraseña:<br>
+        <input type="password" name="contrasena"></br><br>
+        Genero:<br>
+        <input type="radio" name="genero"> Hombre</br>
+        <input type="radio" name="genero"> Mujer</br>
+        <input type="radio" name="genero"> Otro</br><br>
+        Elige el curso o cursos a los que quieres acceder: <br>
+        <input type="checkbox" name="curso"> DAM</br>
+        <input type="checkbox" name="curso"> DAW</br>
+        <input type="checkbox" name="curso"> ASIR</br><br>
+        Elige el centro en el que quieres estudiar:<br>
+        <select name="centro">
+          <option value="comercio">IES Comercio</option>
+          <option value="sagasta">IES Sagasta</option>
+          <option value="delhuyar">IES Hermanos D'elhuyar</option>
+        </select><br><br>
+        <input type="submit" value="Enviar">
+      </form>
+    </td>
+  </tr>
 </table>
-<div class="footer">
+<footer>
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Licencia de Creative Commons" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
-</div>
+<footer>
 </body>
 </html>
