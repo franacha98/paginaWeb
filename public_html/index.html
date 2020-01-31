@@ -10,7 +10,23 @@
 </head>
 <body>
   <script>
-    alert("Bienvenidoss");
+    //alert("Bienvenidoss");
+    function plegar(){
+      document.getElementById('vertical-menu').hidden=true;
+    }
+
+    function desplegar(){
+      document.getElementById('vertical-menu').hidden=false;
+    }
+
+    function mostrarMenu(){
+      if(document.getElementById('vertical-menu').hidden==true){
+        desplegar();
+      }else{
+        plegar();
+      }
+    }
+
   </script>
   <nav>
     <ul>
@@ -18,8 +34,12 @@
   <li><a href="html/index.html">Manual HTML</a></li>
   <li><a href="css/index.html">Manual CSS</a></li>
   <li><a href="Examen/index.html">Examen primera evaluación</a></li>
-  <li><a href="Ejercicio1/Ejercicio1/index.html">Ejercicio1</a></li>
-  <li><a href="Ejercicio1/Ejercicio2/index.html">Ejercicio2</a></li>
+  <li>
+  <a href="#" onclick="mostrarMenu()" >Ejercicios</a>
+  <div id="vertical-menu" hidden=true>
+  <a href="Ejercicio1/Ejercicio1/index.html">Ejercicio1</a>
+  <a href="Ejercicio1/Ejercicio2/index.html">Ejercicio2</a>
+  </div></li>
   </ul>
   </nav>
 <h1>MANUAL</h1>
