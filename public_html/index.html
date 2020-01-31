@@ -2,7 +2,7 @@
 <html lang="es-ES">
 <head>
 <title>Inicio</title>
-<meta name="author" content="Fran Acha" charset="UTF-8">
+<meta name="author" content="Fran Acha">
 <link rel="icon" type="image/png" href="images/favicon-32x32.png" sizes="32x32" />
 <link type="text/css" rel="stylesheet" href="estilos/hojaEstilos.css"/>
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
@@ -36,7 +36,7 @@
   <li><a href="Examen/index.html">Examen primera evaluación</a></li>
   <li>
   <a href="#" onclick="mostrarMenu()" >Ejercicios</a>
-  <div id="vertical-menu" hidden=true>
+  <div id="vertical-menu" hidden>
   <a href="Ejercicio1/Ejercicio1/index.html">Ejercicio1</a>
   <a href="Ejercicio1/Ejercicio2/index.html">Ejercicio2</a>
   </div></li>
@@ -44,7 +44,7 @@
   </nav>
 <h1>MANUAL</h1>
 <hr>
-<p><a href="html/index.html"><img alt="Manual de HTML"src="images/html.jpg" width="300" height="200"></a>
+<p><a href="html/index.html"><img alt="Manual de HTML" src="images/html.jpg" width="300" height="200"></a>
 <a href="css/index.html"><img alt="Manual de CSS" src="images/css.jpg" width="300" height="200"></a></p>
 <button onclick="window.location.href='html/index.html'">Ir al manual de HTML</button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -55,8 +55,8 @@
     <th colspan="6">HORARIO</th>
   </tr>
   <tr>
-    <td></td>
-    <td ="diashoras">LUNES</td>
+    <td>
+    <td class="diashoras">LUNES</td>
     <td class="diashoras">MARTES</td>
     <td class="diashoras">MIÉRCOLES</td>
     <td class="diashoras">JUEVES</td>
@@ -131,7 +131,7 @@
       <td colspan="3" id="html">HTML</td>
     </tr>
       <tr>
-        <td colspan="2" rowspan="2" id="lol"><img id="lolpng" src="images/lol2.png"></td>
+        <td colspan="2" rowspan="2" id="lol"><img id="lolpng" alt="lol" src="images/lol2.png"></td>
         <td></td>
         <td rowspan="3"><span class="fa-stack fa-lg">
           <i  class="fa fa-trash fa-stack-2x"></i>
