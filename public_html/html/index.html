@@ -9,7 +9,38 @@
 <link href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
 <body>
-  <iframe src="../iframe/index.html" height="50" width="100%"></iframe>
+  <script>
+    function plegar(){
+      document.getElementById('vertical-menu').hidden=true;
+    }
+
+    function desplegar(){
+      document.getElementById('vertical-menu').hidden=false;
+    }
+
+    function mostrarMenu(){
+      if(document.getElementById('vertical-menu').hidden==true){
+        desplegar();
+      }else{
+        plegar();
+      }
+    }
+
+  </script>
+  <nav>
+    <ul>
+  <li><a class="active" href="index.html">Menu principal</a></li>
+  <li><a href="index.html">Manual HTML</a></li>
+  <li><a href="../css/index.html">Manual CSS</a></li>
+  <li><a href="../Examen/index.html">Examen primera evaluación</a></li>
+  <li>
+  <a href="#" onclick="mostrarMenu()" >Ejercicios</a>
+  <div id="vertical-menu" hidden>
+  <a href="../Ejercicio1/Ejercicio1/index.html">Ejercicio1</a>
+  <a href="../Ejercicio1/Ejercicio2/index.html">Ejercicio2</a>
+  </div></li>
+  </ul>
+  </nav>
 <h1>Manual HTML  <i class="fa fa-check-square-o" aria-hidden="true"></i></h1>
 <hr>
 <h3>¿Qué es un Lenguaje de marcas?</h3>
