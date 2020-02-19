@@ -1,0 +1,129 @@
+body{
+  background-color: #fafafa;
+}
+#cabecera{
+  background-color: white;
+  border-bottom: 1px solid #bec0c2;
+  margin:-10px;
+}
+#titulo{
+  width: 15%;
+  padding-left: 175px;
+}
+#buscar{
+  background-color: #fafafa;
+  color: #bec0c2;
+  border-color: #f2f2f2;
+  padding-left: 115px;
+  height: 25px;
+  width: 150px;
+  border-radius: 5px;
+}
+form{
+  position: absolute;
+  top:55px;
+  left: 50%;
+}
+#caja{
+  margin-top: 50px;
+  margin-left: 17%;
+  width: 800px;
+}
+#comentarios{
+  width: 50%;
+  height: 100px;
+  background-color: white;
+  margin-left: 50%;
+  margin-top: -502px;
+  height: 497.717px;
+}
+#rosalia{
+  width: 50%;
+}
+#perfil{
+  height: 13%;
+  border-bottom: 1px solid #bec0c2;
+}
+.fotoPerfil{
+  width: 18%;
+}
+#nombre{
+  font-weight: bold;
+  margin-left: 10px;
+  position:absolute;
+  top:175px;
+}
+#verificado{
+  width: 1%;
+  position:absolute;
+  top:179px;
+  margin-left: 81px;
+}
+#loc{
+  font-size: 14px;
+  position: absolute;
+  margin-left:10px;;
+  top: 200px;
+}
+#follow{
+  position: absolute;
+  top:176px;
+  margin-left: 120px;
+  color:#5aa2f1;
+}
+#descripcion{
+  height: 13%;
+}
+#nombre2{
+  font-weight: bold;
+  margin-left: 10px;
+  position:absolute;
+  top:240px;
+}
+#verificado2{
+  width: 1%;
+  position:absolute;
+  top:242px;
+  margin-left: 81px;
+}
+
+#mas{
+  height: 10%;
+
+}
+#plus{
+  margin-left: 180px;
+  width: 8%;
+}
+#coments{
+  height: 32%;
+  border-bottom: 1px solid #bec0c2;
+}
+#meGustas{
+  height: 20%;
+  border-bottom: 1px solid #bec0c2;
+}
+#corazon{
+  width: 2%;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 5px;
+}
+#comentario{
+  width: 3%;
+  position: absolute;
+  margin-top: -3px;
+  margin-left: 50px;
+}
+#enviar{
+  position: absolute;
+  width: 2%;
+  margin-top: 5px;
+  margin-left: 105px;
+}
+#nums{
+  position: absolute;
+  margin-left: 10px;
+  font-weight: bold;
+  margin-top: 45px;
+}
