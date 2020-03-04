@@ -1,0 +1,124 @@
+@font-face {
+  font-family: "Star Wars1";
+  src: url("fuentes/Starjedi.ttf");
+}
+@font-face {
+  font-family: "Star Wars2";
+  src: url("fuentes/Starjout.ttf");
+}
+body{
+  background-image: url("multimedia/fondo1.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#titulo{
+  border: 4px solid red;
+  background-image: url("multimedia/estrellas.jpg");
+  height: 60px;
+  margin-top:35px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#textoT{
+  font-family: "Star Wars1";
+  color: yellow;
+  margin-left: 500px;;
+  font-size: 30px;
+}
+#trama{
+  border: 4px solid red;
+  height: 110px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 10px;
+  text-align: justify;
+  color:white;
+  font-family: verdana;
+  background-image: url("multimedia/volcan.jfif");
+  background-size: 100% 100%;
+}
+#izq{
+    border: 4px solid red;
+    background-image: url("multimedia/estrellas.jpg");
+    width: 320px;
+    height: 530px;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+#central{
+  border: 4px solid red;
+  position: absolute;
+  height: 530px;
+  width: 1450px;
+  left: 405px;
+  top: 246px;
+  background-image: url("multimedia/volcan.jfif");
+  background-size: 100% 100%;
+}
+p{
+  text-align: center;
+  color: yellow;
+  font-family: verdana;
+  font-size: 18px;
+}
+#primero{
+  margin-bottom: 40px;
+}
+#segundo{
+  margin-bottom: 40px;
+}
+#reparto{
+  text-align: left;
+  font-family: "Star Wars1";
+  color: white;
+  font-size: 20px;
+}
+table{
+  position: absolute;
+  color: white;
+  top: 10px;
+  left: 30px;
+}
+td{
+  border: 2px solid white;
+}
+#power{
+  position: absolute;
+  width: 600px;
+  height: 230px;
+  left: 550px;
+  top: 280px;
+}
+#chosen{
+  position:absolute;
+  width: 600px;
+  height: 250px;
+  top:10px;
+  left: 550px;
+}
+#final{
+  border: 4px solid red;
+  background-image: url("multimedia/volcan.jfif");
+  background-size: 100% 100%;
+  margin-left: 50px;
+  margin-top: 15px;
+  padding-top: 20px;
+  width: 1797px;
+  height: 110px;
+}
+#ult{
+  color:white;
+  font-family: verdana;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 35px;
+  margin-left:0px;
+}
+#recaudacion{
+  text-align: left;
+  font-family: "Star Wars1";
+  color: white;
+  font-size: 20px;
+  margin-bottom: 30px;
+}

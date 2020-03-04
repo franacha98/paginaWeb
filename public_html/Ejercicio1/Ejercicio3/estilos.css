@@ -31,11 +31,11 @@ form{
 }
 #comentarios{
   width: 50%;
-  height: 100px;
   background-color: white;
-  margin-left: 50%;
+  margin-left: 49.8%;
   margin-top: -502px;
-  height: 497.717px;
+  height: 496px;
+  border: 1px solid #bec0c2;
 }
 #rosalia{
   width: 50%;
@@ -126,4 +126,55 @@ form{
   margin-left: 10px;
   font-weight: bold;
   margin-top: 45px;
+}
+#responder{
+  color:grey;
+  position:absolute;
+
+  font-size: 12px;
+  margin-top:30px;
+  margin-left: 80px;
+}
+#jennylmk{
+  font-weight: bold;
+  position: absolute;
+  left: 730px;
+}
+#jenny{
+  width: 3.5%;
+  position: absolute;
+  left:660px;
+}
+#corazones{
+  position: absolute;
+  left: 805px;
+  width: 4%;
+}
+#fecha{
+  color:grey;
+  position:absolute;
+  font-size: 14px;
+  margin-left: 10px;
+  margin-top: 70px;
+  font-variant: small-caps;
+}
+#iniciar{
+  font-family: arial;
+  color: grey;
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 14px;
+}
+#sesion{
+  color:#3897f0;
+}
+#guardar{
+  position: absolute;
+  margin-left: 365px;
+  margin-top:5px;
+  width: 1.8%;
+}
+#texto{
+  position: absolute;
+  margin-top: 10px;
 }
