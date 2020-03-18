@@ -1,0 +1,68 @@
+<html>
+    <head>
+        <title>Formulario</title>
+        <link type="text/css" rel="stylesheet" href="estilos.css"/>
+      </head>
+<body>
+    <form>
+    <div class="login">
+        <div class="login-screen">
+            <div class="app-title">
+                <h1>VUELOS BARATOS</h1>
+            </div>
+
+            <div class="login-form">
+                <div class="control-group">
+                <label class="login-field-icon fui-user" for="login-name">Introduce tu nombre</label>
+                <input type="text" class="login-field" value="" placeholder="username" id="login-name">
+                
+                </div>
+
+                <div class="control-group">
+                    <label class="login-field-icon fui-user" for="correo">Direccion de correo electrónico</label>
+                    <input type="email" id="correo" value="" placeholder="example@xxxx.sss">
+                </div>
+
+                <div class="control-group">
+                    <label class="login-field-icon fui-user" for="passwd">Elija una contraseña</label>
+                    <input type="password" id="passwd" value="" placeholder="Password">
+                </div>
+                <div class="control-group">
+                    <label class="login-field-icon fui-user" for="fecha">Elija una fecha</label>
+                    <input type="date" id="fecha" value="" placeholder="Introduce la fecha del vuelo">
+                </div>
+                
+                
+
+                <div class="control-group">
+                    <label class="login-field-icon fui-user" for="fecha">Seleccione el lugar  </label>
+
+                    <select name="menu" id="menu">
+                        <option>Madrid</option>
+                        <option>Tokyo</option>
+                        <option>New York</option>
+                      </select>
+                </div>
+                <p>Seleccione la clase:</p>
+                <label for="primera">Primera clase</label>
+                <input type="radio" id="primera" name="clase" value="primera">
+                <label for="turista">Clase turista</label><br>
+                <input type="radio" id="turista" name="clase" value="turista">
+                <br>
+                
+                <p>¿Qué va a llevar con usted?</p>
+                <label for="equipaje">Equipaje pesado </label><br>
+                <input type="checkbox" id="equipaje" name="equipaje" value="equipaje">
+                <label for="bulto">Bulto de mano</label><br>
+                <input type="checkbox" id="bulto" name="bulto" value="bulto">
+                <label for="mascota">Mascota</label>
+                <input type="checkbox" id="mascota" name="mascota" value="Mascota">
+                <br><br><br>
+                    <a class="btn btn-primary btn-large btn-block" href="#">RESERVA TU VUELO</a>
+                </div>
+                
+        </div>
+    </div>
+</form>
+</body>
+</html>
