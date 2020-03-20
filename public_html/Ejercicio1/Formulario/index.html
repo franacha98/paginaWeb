@@ -1,10 +1,15 @@
+<!DOCTYPE html>
 <html>
     <head>
         <title>Formulario</title>
         <link type="text/css" rel="stylesheet" href="estilos.css"/>
-      </head>
+        <script src="https://cdn.tiny.cloud/1/zre9g4nmdp2bvn1lzw7z93sus15vmvfdx3cpvfymijes8xem/tinymce/5/tinymce.min.js" referrerpolicy="origin"></script>
+        
+            
+    </head>
 <body>
-    <form>
+    
+    <form action="#" method="POST">
     <div class="login">
         <div class="login-screen">
             <div class="app-title">
@@ -30,9 +35,7 @@
                 <div class="control-group">
                     <label class="login-field-icon fui-user" for="fecha">Elija una fecha</label>
                     <input type="date" id="fecha" value="" placeholder="Introduce la fecha del vuelo">
-                </div>
-                
-                
+                </div>             
 
                 <div class="control-group">
                     <label class="login-field-icon fui-user" for="fecha">Seleccione el lugar  </label>
@@ -57,6 +60,9 @@
                 <input type="checkbox" id="bulto" name="bulto" value="bulto">
                 <label for="mascota">Mascota</label>
                 <input type="checkbox" id="mascota" name="mascota" value="Mascota">
+                <p>¿Alguna recomendación?</p>
+                <textarea id="mytextarea"></textarea>
+                
                 <br><br><br>
                     <a class="btn btn-primary btn-large btn-block" href="#">RESERVA TU VUELO</a>
                 </div>
@@ -66,3 +72,8 @@
 </form>
 </body>
 </html>
+<script type="text/javascript">
+    tinymce.init({
+      selector: '#mytextarea'            
+    });
+</script>
