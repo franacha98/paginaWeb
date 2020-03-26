@@ -1,0 +1,173 @@
+#titulo{
+    background-color: white;
+    position: relative;
+    width: 105%;
+    height: 55px;
+    margin-left: -10px;
+    box-shadow: 0px 5px 10px grey;
+    
+}
+#logoYT{
+    position: relative;
+    margin-bottom: 7px;
+    width: 8%;
+    top: 5px;
+}
+#menu{
+    width:4%;
+    position: relative;
+    top: 5px;
+}
+form{
+    position: relative;
+    margin-left: 20%;
+    margin-top: -40px;
+    
+}
+#barra{   
+    width: 46%;
+    height: 28px;
+    margin-right: -5px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+#buscar{
+    position: relative;
+    width: 5%;
+    height: 33px;
+    left:2.8px;
+    top:1px;
+    background-color: white;
+    border: 1px solid grey;
+    border-left: none;
+}
+#usuario{
+    position: relative;
+    left:83%;
+    top: -40px;
+}
+#videoPrincipal{
+    position: relative;
+    width: 70%;
+    margin: 1%;
+    margin-bottom: 0px;
+    margin-top: 24px;
+    height: 543px;
+}
+
+#siguiente{
+    position: relative;
+    width: 30%;
+    left: 72%;
+    height: 25px;
+    top: -810px;
+}
+#sig{
+    
+    font-weight: bold;
+}
+#rep{
+    color: grey;
+    position: relative;
+    margin-left: 12%;
+    font-weight: bold;
+}
+#int{
+    position: relative;
+    width: 10%;
+    top: 5px;
+}
+
+#descripcion{
+    position: relative;
+    background-color: white;
+    width: 70%;
+    height: 110px;
+    box-shadow: 0px 9px 10px grey;    
+    margin: 1%;
+    margin-top: -16px;
+}
+#hashtags{
+    position: relative;
+    color: cornflowerblue;
+    top: 15px;
+}
+#autor{
+    font-weight: bold;
+    font-size: 20px;
+
+}
+#visualizaciones{
+    color:gray;
+}
+.link{
+    color: cornflowerblue;
+}
+#fonsi{
+    margin:1%;
+    
+    width: 70%;
+    height: 120px;
+}
+#fotoFonsi{
+    position: relative;
+    width: 6%;
+    height: 50px;
+    
+}
+#nombre{
+    position: relative;
+    top: -25px;
+    left:15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+#subs{
+    position: relative;
+    color:gray;
+    font-weight: bold;
+    left: -112px;
+}
+#disponible{
+    position: relative;
+    margin-left: 7%;
+    font-size: 20px;
+}
+#suscribirse{
+    position: relative;
+    left: 532px;
+}
+#lista{
+    position: relative;
+    margin-left: 72%;
+    height: 900px;
+    width: 30%;
+    
+    top: -790px;
+}
+.recomendados{
+    position: relative;  
+    width: 100%;
+    height: 95px;
+    
+    margin-bottom: 3%;
+}
+.miniatura{
+    position: relative;
+    width: 40%;
+}
+.tituloVideo{
+    
+    width: 40%;
+    position: relative;
+    left: 42%;
+    margin-top: -23%;
+    font-weight: bold;
+}
+.info{
+    position: relative;
+    width: 50%;
+    left: 42%;
+    color: gray;
+    
+}
