@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "Minecraft";
+    src: url("1_MinecraftRegular1.otf");
+}
+body{
+    background-image: url("fondo.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;   
+    font-family: Minecraft;
+    color: whitesmoke;
+    font-size: 25px;
+    
+}
+#titulo{
+    text-align: center;
+    position: relative;
+    top: 70px;
+}
+#menu{
+    width: 600px;
+    height: 350px;
+    
+    position: relative;
+    left: 34%;
+    top: 150px;
+}
+.caja{
+    position: relative;
+    width: 100%;
+    height: 60px;
+    
+    left: 1%;
+    top: 3%;
+    margin-bottom: 3%;
+}
+.botonLargo{
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+    width: 97%;
+    height: 60px;
+    top:1%;
+    left: 1%;
+}
+
+.botonCorto{
+    background-color: grey;
+    border: 2px solid black;
+    position: relative;
+    width: 47%;
+    height: 60px;
+    margin-right: 14px;
+    float: left;
+}
+p{
+    text-align: center;
+    position: relative;
+    top: -8px;
+}
+
+.botonLargo:hover{
+    background-color: mediumslateblue;
+    color: yellow;
+}
+
+.botonCorto:hover{
+    background-color: mediumslateblue;
+    color: yellow;
+}
+#cosaRara{
+    position: absolute;
+    width: 3%;
+    height: 60px;
+    background-color: grey;
+    color: aquamarine;
+    top: 448px;
+    left: 590px;
+    border: 2px solid black;
+}
