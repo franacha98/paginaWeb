@@ -1,0 +1,106 @@
+@font-face {
+    font-family: "Titulos";
+    src: url("BerlinSansFBDemiBold.ttf");
+}
+@font-face {
+    font-family: "Contenido";
+    src: url("arial-rounded-mt-bold.ttf");
+}
+body{
+    background-color: black;
+    margin: 80px;
+}
+
+h1{
+    color: #ffb31a;
+    font-family: "Titulos";
+    
+    text-align: center;
+    margin-top: -40px;
+}
+
+.titulo{
+    color: #ffb31a;
+    font-family: "Titulos";
+    font-size: 20px;
+}
+p{
+    color: white;
+    font-family: "Contenido";
+    font-size: 18px;
+}
+.parrafos{
+    margin-bottom: 70px;
+    font-family: "Contenido";
+    font-size: 18px;
+}
+ol,TH,form,datalist,label,button{
+    font-family: "Contenido";
+    font-size: 18px;
+    color: white;
+}
+pre{
+    color: white;
+    font-size: 18px;
+}
+ul{
+    font-family: "Titulos";
+    color: #ffb31a;
+}
+.enlaces{
+    font-family: "Titulos";
+    color: #ffb31a;
+}
+footer{
+    position: relative;
+    margin-left: -60px;  
+}
+
+h3,h5,h6,caption{
+    font-family: "Titulos";
+    color: #ffb31a;
+    font-size: 18px;
+}
+table{
+    position: relative;
+    left: 20%;
+}
+td,TH{
+    border: 1px solid #ffb31a;
+
+}
+.clases{
+    position: relative;
+    width: 350px;
+    height: 350px;
+}
+#contenedor div:hover{
+    z-index: 999;
+}
+#logo{
+    position: absolute;
+    left: 300px;
+    z-index: 20;
+}
+#horda{
+    position: absolute;
+    left: 100px;
+    z-index: 10;
+}
+#alianza{
+    position: absolute;
+    left: 700px;
+    z-index: 5;
+}
+#mmorpg{
+    color: cyan;
+}
+#relato{
+    overflow-x: scroll;
+    height: 300px;
+}
+textarea{
+    position: relative;
+    width: 50%;
+    height: 300px;
+}
